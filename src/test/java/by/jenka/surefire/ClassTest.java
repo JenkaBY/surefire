@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("ClassTest DIsplay name")
+@DisplayName("ClassTest Display name")
 public class ClassTest {
 
     @Test
     @DisplayName("TEST true is true")
     public void test() {
         System.out.println("PRINT in TEST 1");
-        Assertions.assertTrue(false, "This is true");
+        Assertions.assertTrue(true, "This is true");
     }
 
     @Test
